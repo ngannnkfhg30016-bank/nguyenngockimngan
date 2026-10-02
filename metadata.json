@@ -1,0 +1,6 @@
+{
+  "name": "KHÁM PHÁ BIỂN ĐÔNG",
+  "description": "Ứng dụng giáo dục tương tác khám phá Biển Đông, kết nối Việt Nam bám sát Chuyên đề Địa lí 11 GDPT 2018 cùng linh vật Kiến Sáng FPT School.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
