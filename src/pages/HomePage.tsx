@@ -33,11 +33,11 @@ export const HomePage: React.FC<HomePageProps> = ({
 }) => {
   return (
     <div className="space-y-12">
-      {/* Hero Section - Bright Ocean Blue */}
-      <section className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-blue-700 via-sky-600 to-cyan-700 text-white p-6 sm:p-10 lg:p-12 shadow-2xl shadow-sky-600/20 border border-sky-400/40">
+      {/* Hero Section - Radiant Bright Ocean Blue */}
+      <section className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-blue-600 via-sky-500 to-cyan-500 text-white p-6 sm:p-10 lg:p-12 shadow-2xl shadow-sky-500/25 border border-sky-300/40">
         {/* Ambient background rings */}
-        <div className="absolute -right-16 -bottom-16 w-80 h-80 rounded-full bg-cyan-300/25 blur-3xl pointer-events-none"></div>
-        <div className="absolute -left-16 -top-16 w-80 h-80 rounded-full bg-sky-300/30 blur-3xl pointer-events-none"></div>
+        <div className="absolute -right-16 -bottom-16 w-80 h-80 rounded-full bg-cyan-200/35 blur-3xl pointer-events-none"></div>
+        <div className="absolute -left-16 -top-16 w-80 h-80 rounded-full bg-sky-200/35 blur-3xl pointer-events-none"></div>
 
         <div className="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
           {/* Left Hero Text */}
@@ -55,7 +55,7 @@ export const HomePage: React.FC<HomePageProps> = ({
               Học Biển Đông – Khám phá rộng mở – Kết nối Việt Nam qua trải nghiệm số
             </p>
 
-            <p className="text-sm sm:text-base text-white/90 max-w-2xl leading-relaxed font-normal">
+            <p className="text-sm sm:text-base text-white/95 max-w-2xl leading-relaxed font-normal">
               Chào mừng bạn đến với không gian học tập trực quan số 1 về Biển Đông! Cùng linh vật{' '}
               <strong className="text-amber-300 font-bold">Kiến Sáng 🐜</strong> chu du qua bản đồ số 3D, khám phá vùng biển thiêng liêng 1.010.274 km² của Tổ quốc và chinh phục các trò chơi tương tác hấp dẫn.
             </p>
@@ -64,13 +64,13 @@ export const HomePage: React.FC<HomePageProps> = ({
             <div className="pt-2 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
               <button
                 onClick={() => onNavigate('map')}
-                className="flex items-center justify-between p-4 rounded-2xl bg-gradient-to-r from-amber-400 to-orange-500 hover:from-amber-300 hover:to-orange-400 text-slate-950 font-black text-sm shadow-lg shadow-orange-500/25 transition-all hover:scale-[1.02] active:scale-98 cursor-pointer"
+                className="flex items-center justify-between p-4 rounded-2xl bg-white hover:bg-sky-50 text-blue-900 font-black text-sm shadow-lg shadow-blue-950/20 transition-all hover:scale-[1.02] active:scale-98 cursor-pointer border border-white/80"
               >
                 <div className="flex items-center gap-2.5">
-                  <Compass className="w-5 h-5 text-slate-950" />
+                  <Compass className="w-5 h-5 text-sky-600" />
                   <span>Khám phá Biển Đông</span>
                 </div>
-                <ChevronRight className="w-4 h-4 text-slate-950" />
+                <ChevronRight className="w-4 h-4 text-sky-600" />
               </button>
 
               <button

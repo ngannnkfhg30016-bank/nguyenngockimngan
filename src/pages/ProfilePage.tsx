@@ -51,7 +51,7 @@ export const ProfilePage: React.FC<ProfilePageProps> = ({
   return (
     <div className="space-y-8">
       {/* Profile Banner */}
-      <div className="bg-gradient-to-r from-blue-700 via-sky-600 to-cyan-700 text-white rounded-3xl p-6 sm:p-10 shadow-xl shadow-sky-600/20 border border-sky-400/40 relative overflow-hidden">
+      <div className="bg-gradient-to-r from-blue-600 via-sky-500 to-cyan-500 text-white rounded-3xl p-6 sm:p-10 shadow-xl shadow-sky-500/25 border border-sky-300/40 relative overflow-hidden">
         <div className="relative z-10 flex flex-col sm:flex-row sm:items-center justify-between gap-6">
           <div className="flex items-center gap-4 sm:gap-6">
             {/* Student Avatar with Quick Edit Overlay */}
